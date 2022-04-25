@@ -83,10 +83,10 @@ This project is licensed under the LGPL License - see the LICENSE.md file for de
  
  
 ## Sources
-We used the LDS of König et al.:
+We used the AuVeCoDe of König:
 * Repository: https://github.com/TUMFTM/Modular-Quasi-Static-Longitudinal-Simulation-for-BEV
-* Paper: Adrian König, Lorenzo Nicoletti et. al. „An Open-Source Modular Quasi-Static Longitudinal Simulation for Full Electric Vehicles,“ in 15th International Conference on Ecological Vehicles and Renewable Energies, Monte-Carlo, Monaco, 2020, pp. 1–9, DOI: 10.1109/EVER48776.2020.9242981.
-
-The following paper describes the development of the tool:
+* Dissertation: Adrian König, „Methodik zur Auslegung von autonomen Fahrzeugkonzepten“. Dissertation, Lehrstuhl für Fahrzeugtechnik, Technische Universität München (TUM), München, 2022.
+* 
+The following dissertation describes the development of the tool:
 
 XXXXXXXXXXXXXXXXXXXXXX
