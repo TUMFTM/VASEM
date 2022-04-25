@@ -84,9 +84,9 @@ This project is licensed under the LGPL License - see the LICENSE.md file for de
  
 ## Sources
 We used the AuVeCoDe of König:
-* Repository: https://github.com/TUMFTM/Modular-Quasi-Static-Longitudinal-Simulation-for-BEV
-* Dissertation: Adrian König, „Methodik zur Auslegung von autonomen Fahrzeugkonzepten“. Dissertation, Lehrstuhl für Fahrzeugtechnik, Technische Universität München (TUM), München, 2022.
-* 
-The following dissertation describes the development of the tool:
+* Repository: https://github.com/TUMFTM/AuVeCoDe
+* Dissertation: Adrian König, „Methodik zur Auslegung von autonomen Fahrzeugkonzepten“. Dissertation, Lehrstuhl für Fahrzeugtechnik, Technische Universität München (TUM), München, 2022. (in progress)
 
-XXXXXXXXXXXXXXXXXXXXXX
+
+The following dissertation describes the development of the tool:
+Ferdinand Schockenhoff, „Fahrzeugkonzeptentwicklung für autonome, geteilte und elektrische Mobilität“. Dissertation, Lehrstuhl für Fahrzeugtechnik, Technische Universität München (TUM), München, 2022. (in progress)
