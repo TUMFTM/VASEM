@@ -16,11 +16,17 @@ The GUI of the tool steps are shown in the following figure. The numbers will ex
 ```
 Start.mlapp
 ```
-  
-![GUI AV Drving Cycles](https://user-images.githubusercontent.com/72914074/163174684-a651846f-a2d3-408a-bd62-d835054cb70f.png)
-  
+![00_Start_1](https://user-images.githubusercontent.com/72914074/165326073-04ae8ff2-924e-445d-b6a9-1ba2db32caaa.png)
+![00_Start_2](https://user-images.githubusercontent.com/72914074/165326123-573aba08-2f39-4d76-96cd-b4751ca9e899.png)
 
-#### 1: Input Mode
+#### 1
+Buttons to choose the wanted app.
+#### 2
+Description of the chosen app
+#### 3
+Figure of the chosen app
+#### 4
+Button to proceed to the chosen app
 
 
 ### User Needs
