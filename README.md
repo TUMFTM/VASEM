@@ -18,8 +18,7 @@ Start.mlapp
 ```
 The app Start gives an overview about the different process steps and allows to open every step/ app.
 
-![00_Start_1](https://user-images.githubusercontent.com/72914074/165326073-04ae8ff2-924e-445d-b6a9-1ba2db32caaa.png)
-![00_Start_2](https://user-images.githubusercontent.com/72914074/165326123-573aba08-2f39-4d76-96cd-b4751ca9e899.png)
+![00_Start](https://user-images.githubusercontent.com/72914074/165953452-38df78d6-6bfc-4495-a899-e87a1ab4cbfc.png)
 
 1 Buttons to choose the wanted app  
 2 Description  of the chosen app  
@@ -33,34 +32,64 @@ UserNeeds.mlapp
 ```
 The app User Needs is the initial start of the development vehicle concepts for autonomous, shared, and electric mobility. The User has to fill out the required mobility users.
 
-![01_UserNeeds_1](https://user-images.githubusercontent.com/72914074/165335064-6fd8edac-627f-4bd3-b4b4-08dc2dd5e549.png)
+![01_UserNeeds](https://user-images.githubusercontent.com/72914074/165953617-ceefd27e-ef81-4084-b8bf-27c54fea83af.png)
 
 1: Save, Load, Reset or Update the data   
 2: Set the parameters number of users (1-6) and the desired user fulfillment  of the simulated vehicle fleet (50%-80%)   
 3: Option to choose a predefined scenario   
 4: Selected the display option   
 5: Selected the needs of each user manually   
-6: Proceed to the next process step
+6: Proceed to the next process step by an optimazation   
+7: Home Button brings you bacl to the Start app (exists in every App)
 
 
 ### Vehicle Provision
 ```
 VehicleProvision.mlapp
 ```
-The app Vehicle Provision illustrates the results of the optimization that minimizes the number of vehicles to achieve the required level of users' fulfillment. 
+The app Vehicle Provision illustrates the results of the optimization that minimizes the number of vehicles to achieve the required level of users' fulfillment.
+
+![02_Vehicle Provision](https://user-images.githubusercontent.com/72914074/165949884-b473a4bf-7824-469f-ba39-6d38690d0036.png)
+
+1: Load previously simulated data   
+2: Selected the display option   
+3: Figures of the simulated vehicles   
+4: Describtion/ Legend of the simulated vehicles    
+5: Proceed to the next process step by a fuzzy logic   
 
 ### Customer-relevant Properties
 ```
 CustomerrelevantProperties.mlapp
 ```
+The Customer-relevant Properties are calculated from the users’ needs and shown in a nominal scale. 
 
-The Customer-relevant properties are calculated from the users’ needs and shown in a nominal scale. 
+![03_Customer-relevant Properties](https://user-images.githubusercontent.com/72914074/165951341-ca5a9abb-c662-415b-835f-8083be883ee4.png)
+
+1: Load, Save, Reset and Manipilate the previously simulated data   
+2: Selected the display option (Customer-relevant Properties of one Vehicle Concept and its related Vehicle Provison OR Customer-relevant Properties of all Vehicle Concepts)   
+3: Select the Vehicle Concepts you want to illustrate. Push Update to confirm the selection.   
+4: The illustration of Customer-relevant Properties of all Vehicle Concepts   
+5: Switch between the Secondary Activites and the Character/ Mobility of the Vehicle provision in the illustration of Customer-relevant Properties of one Vehicle Concept   
+6: Illustration of Customer-relevant Properties of one Vehicle Concept and Manipulate mode to change the values   
+7: Proceed to the next process step by correlation functions   
+
 
 ### Technical Properties
 ```
 TechnicalProperties.mlapp
 ```
 The Technical Properties are derived from the customer-relevant properties by correlation functions. They describe the properties in a technical physical manner.
+
+![04_Technical Properties](https://user-images.githubusercontent.com/72914074/165953933-11fcc281-2757-4a02-82bc-73f15bb22795.png)
+
+1: Load, Save, Reset and Manipilate the previously simulated data   
+2: Selected the display option (all Technical Properties for one Vehicle concept, a group of Technical Proberties for all Vehicle Concepts, the previously simulated Customer-relevant Properties of all Vehicle Concepts, or the Correlatiosn between them)   
+3: Select the Vehicle Concepts you want to illustrate. At maximum a selection of 6 vehicle concepts is possible.   
+4: The illustration of All Technical Properties for the selected vehicle concept.   
+5: The illustration of the correlation functions.   
+6: Switch between the different groups of technical proberties   
+7: Proceed to the next process step by calculation.   
+
 
 ### Design Parameter
 ```
