@@ -1,0 +1,83 @@
+[System]
+Name='Character2VT'
+Type='mamdani'
+Version=2.0
+NumInputs=5
+NumOutputs=1
+NumRules=21
+AndMethod='prod'
+OrMethod='max'
+ImpMethod='prod'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='WichtigkeitNebentaetigkeit'
+Range=[0 10]
+NumMFs=3
+MF1='gering':'trimf',[-4 0 4]
+MF2='mittel':'trimf',[2 5 8]
+MF3='hoch':'trimf',[6 10 14]
+
+[Input2]
+Name='AnzahlMitfahrende'
+Range=[0 9]
+NumMFs=3
+MF1='gering':'trimf',[-4 0 4]
+MF2='mittel':'trimf',[3 5 7]
+MF3='hoch':'trimf',[6 9 12.6]
+
+[Input3]
+Name='BereitschaftMAAS'
+Range=[0 10]
+NumMFs=3
+MF1='gering':'trimf',[-4 0 4]
+MF2='mittel':'trimf',[2 5 8]
+MF3='hoch':'trimf',[6 10 14]
+
+[Input4]
+Name='Investionsbereitschaft'
+Range=[0 10]
+NumMFs=3
+MF1='gering':'trimf',[-4 0 4]
+MF2='mittel':'trimf',[2 5 8]
+MF3='hoch':'trimf',[6 10 14]
+
+[Input5]
+Name='Sicherheitsbedürfnis'
+Range=[0 10]
+NumMFs=3
+MF1='gering':'trimf',[-4 0 4]
+MF2='mittel':'trimf',[2 5 8]
+MF3='hoch':'trimf',[6 10 14]
+
+[Output1]
+Name='VehicleTyp'
+Range=[0 10]
+NumMFs=3
+MF1='Privat':'trimf',[-4 0 4]
+MF2='Taxi':'trimf',[2 5 8]
+MF3='Shuttle':'trimf',[6 10 14]
+
+[Rules]
+0 0 1 3 0, 1 (0.5) : 1
+0 0 1 2 3, 1 (0.5) : 1
+0 0 1 2 2, 2 (0.5) : 1
+0 0 1 2 1, 2 (0.5) : 1
+0 0 2 2 0, 2 (0.5) : 1
+0 0 2 3 0, 2 (0.5) : 1
+0 0 3 3 0, 2 (0.5) : 1
+0 0 3 2 0, 2 (0.5) : 1
+0 0 3 1 0, 3 (0.5) : 1
+3 1 1 0 0, 1 (1) : 1
+3 1 2 3 0, 1 (1) : 1
+3 1 2 0 0, 1 (1) : 1
+3 2 2 0 0, 2 (1) : 1
+1 2 3 0 0, 3 (1) : 1
+1 3 2 0 0, 3 (1) : 1
+1 1 1 0 0, 2 (1) : 1
+1 1 2 0 0, 3 (1) : 1
+2 1 1 0 0, 2 (1) : 1
+2 2 2 0 0, 2 (1) : 1
+2 2 3 0 0, 3 (1) : 1
+2 3 3 0 0, 3 (1) : 1
