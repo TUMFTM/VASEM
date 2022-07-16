@@ -116,6 +116,14 @@ VehicleConcepts.mlapp
 ```
 The app Vehicle Concept presents the results of the entire process. The final vehicle concepts with their package and further attributes are shown.
 
+![06_Vehicle Concept](https://user-images.githubusercontent.com/108822667/179357129-21ff2939-e181-427d-8ba6-a1b82a1f3a44.png)
+
+1: Load and Save the previously simulated data   
+2: Selected the display option  
+3: The illustration of all simulated Vehicle Concepts.   
+4: Select the different views for the different Vehicle Concepts.   
+5: IF you want to see only a single Vehicle Concept, you can choose which one you want to illustrate.      
+6: The different views of the selected single Vehicle Concept.   
   
 ## Deployment
   
