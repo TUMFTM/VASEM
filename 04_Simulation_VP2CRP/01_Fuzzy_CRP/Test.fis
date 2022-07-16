@@ -1,0 +1,52 @@
+[System]
+Name='Test'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=2
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Fahrerraum'
+Range=[0 10]
+NumMFs=4
+MF1='mf1':'trimf',[-4.15 0 2.5]
+MF2='mf2':'trimf',[1 3.5 6]
+MF3='mf3':'trimf',[4 6.5 9]
+MF4='mf4':'trimf',[7.5 10 12.5]
+
+[Input2]
+Name='Lebenraum'
+Range=[0 10]
+NumMFs=4
+MF1='mf1':'trimf',[-4.15 0 2.5]
+MF2='mf2':'trimf',[1 3.5 6]
+MF3='mf3':'trimf',[4 6.5 9]
+MF4='mf4':'trimf',[7.5 10 12.5]
+
+[Output1]
+Name='Qualität-LD'
+Range=[0 10]
+NumMFs=3
+MF1='mf1':'trimf',[-4.15 0 4]
+MF2='mf2':'trimf',[1 5 9]
+MF3='mf3':'trimf',[6 10 14.19]
+
+[Output2]
+Name='Qualität-QD'
+Range=[0 10]
+NumMFs=3
+MF1='mf1':'trimf',[-4.15 0 4]
+MF2='mf2':'trimf',[1 5 9]
+MF3='mf3':'trimf',[6 10 14.19]
+
+[Rules]
+1 1, 1 0 (1) : 1
+3 0, 0 1 (1) : 1
+
+
