@@ -97,6 +97,18 @@ DesignParameter.mlapp
 ```
 The Design Parameter provides every needed parameter to simulate the final vehicle concept.
 
+![05_Design Parameter](https://user-images.githubusercontent.com/108822667/179356805-96329eb3-d088-4d7e-bfeb-c9039e68f156.png)
+
+1: Load, Save, Reset and Manipilate the previously simulated data   
+2: Selected the display option (Key Parameters Selection or Detailed Parameter Selection)   
+3: Select the Vehicle Concepts you want to illustrate. At maximum a selection of 12 vehicle concepts is possible for the Key Parameter Selection.   
+4: The illustration of the Key Parameters for the selected vehicle concepts.   
+5: Select the Vehicle Concept you want to illustrate. There is only one vehicle concept possible for the Detailed Parameter Selection.      
+6: Switch between the different groups of detailed parameters  
+7: The illustration of the Detailed Parameters for the selected vehicle concept.   
+8: Proceed to the Selection of the Vehicle Concepts to be simulated.   
+9: Start the simulation of the 3D models of the selected vehicle concept (at the maximum 6). 
+
 
 ### Vehicle Concept
 ```
